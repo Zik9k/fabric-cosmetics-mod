@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "id": "fabriccosmetics",
-  "version": "1.0.0",
+  "version": "${version}",
   "name": "Fabric Cosmetics",
   "description": "Custom cosmetics mod for Fabric 1.21.4",
   "authors": ["Zik9k"],
