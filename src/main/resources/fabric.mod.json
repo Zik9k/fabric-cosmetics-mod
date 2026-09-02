@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "fabriccosmetics",
+  "version": "1.0.0",
+  "name": "Fabric Cosmetics",
+  "description": "Custom cosmetics mod for Fabric 1.21.4",
+  "authors": ["Zik9k"],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/fabriccosmetics/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.zik9k.fabriccosmetics.FabricCosmetics"],
+    "client": ["com.zik9k.fabriccosmetics.client.FabricCosmeticsClient"]
+  },
+  "mixins": [],
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.4",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
